@@ -24,7 +24,7 @@ class Config(object):
     TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "AQCPI_hM0aR3eBXRdzLD3dtkWGewaDuR1qvH_PjvaNCWlbcFrw-Te8ZGJaApItVK1qGbw9O4vOxG_B3CTOMgnXNxw_Yz7VqWxae8lhPCoAgNlB-l7O38nlUkk4icUiyEvRb5yb8AY4tTOGYhWw00RGIS3NfD1arrZ27GG8KKeMceua6ANWTbuWAVvtdgyZTRrLbk__ctxQcnlpWdoDpvHOFdWQYvglm7LQupeoSGLwTOMigkgmFvPl9Z26Q3ofRNe70BJlrGfE_UznNMBg8N-Cgfv8w0B8NqGeTOOhGe2qDzQFr6ikl-WoPTxEDEJeZkWqm4KiB5PJJtI0pK57McHiqEAAAAAWTHjb8A")
 
     # Database URI
-    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://AutoAnime:AutoAnime@autoanime.f8ahzhs.mongodb.net/?retryWrites=true&w=majority")
+    DB_URI = os.environ.get("DATABASE_URL", "")
 
 
 def LOGGER(name: str) -> logging.Logger:
